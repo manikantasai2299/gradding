@@ -1,0 +1,11 @@
+#include<stdio.h> 
+int main()
+{
+printf("enter marks:");
+
+ int n = 0; 
+scanf("%d",&n);
+printf("%s", n==100 && n>=85?"Grade A":(n==84 && n>=70?"Grade B":(n==69 && n>=55?"Grade C":(n==54 && n>=40?"Grade D":"Grade F" )))); 
+return 0; 
+    
+}
